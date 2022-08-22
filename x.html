@@ -1,0 +1,154 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <title>Internship Assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+
+    <link rel="stylesheet" href="/css/x.css">
+    </head>
+    <body>
+    <div class="signup-form">
+        <form action="/register" method="POST">
+            <h2>Sign Up</h2>
+            <p>Please fill in this form to create an account!</p>
+            <hr>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                    <div class="col"><input type="text" class="form-control" name="middle_name" placeholder="Middle Name" required="required"></div>
+                    <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+                </div>        	
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="row">
+                <div class="form-group col">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                </div>
+                <div class="form-group col">
+                    <input type="password" class="form-control"  placeholder="Confirm Password" required="required">
+                </div>
+            </div>
+            
+             <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="number">Mobile Number</label>
+                    <input type="tel" class="form-control" id="number" maxlength="10" name="Mobile_Number" placeholder="Mobile Number" required="required">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="dob">D.O.B:-</label>
+                    <input type="date" class="form-control" name="dob" id="dob">
+                </div>
+
+             </div>
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" name="address1" id="inputAddress" placeholder="1234 Main St">
+                  
+                  
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" name="address2" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  
+                  <div class="row">
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity" name="city">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select" name="state">
+                          <option selected>Choose...</option>
+                          <option value="Andhra Pradesh">Andhra Pradesh</option>
+                          <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                         <option value="Assam">Assam</option>
+                         <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                        </select>
+                    
+                      </div>
+                    </div>
+                      <div class="row">
+                        <div class="col">
+                            <label for="inputZip" class="form-label">Pincode</label>
+                            <input type="text" class="form-control" id="inputZip" name="pincode">
+                          </div>
+                          <div class="col">
+                                <label for="education" class="form-label">Education</label>
+                                  <select class="form-select" id="education" name="education">
+                                  <option selected>Choose...</option>
+                                  <option value="No formal education">No formal education</option>
+                                  <option value="Primary education">Primary education</option>
+                                  <option value="Secondary education">Secondary education or high school</option>
+                                  <option value="GED">GED</option>
+                                  <option value="Vocational qualification">Vocational qualification</option>
+                                  <option value="Bachelor's degree">Bachelor's degree</option>
+                                  <option value="Master's degree">Master's degree</option>
+                                  <option value="Doctorate or higher">Doctorate or higher</option>
+                                </select>
+                          </div>
+
+                      </div>
+                      
+
+                 
+                  
+            
+            
+                <div class="input-group mb-3 col">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            
+            
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" id="submit">Sign Up</button>
+            </div>
+        </form>
+        
+        <center>
+            <div class="hint-text">Already have an account? <a href="/">Login here</a></div>
+        <p class="mt-5 mb-3 text-muted"> Made By:- Vinayak Sharma</p>
+        </center>
+    </body>
